@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="game.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row1 player--0 playerIsActive">
+        <center>
+          <h1 id="name--0">PLAYER 1</h1>
+          <h1 id="score--0">5</h1>
+          <div class="currentplayers">
+            <h4>CURRENT</h4>
+            <h1 id="current--0">0</h1>
+          </div>
+        </center>
+      </div>
+
+      <!-- <div class="row2">2</div> -->
+
+      <div class="row3 player--1">
+        <center>
+          <h1 id="name--1">PLAYER 2</h1>
+          <h1 id="score--1">4</h1>
+          <div class="currentplayers">
+            <h4>CURRENT</h4>
+            <h1 id="current--1">0</h1>
+          </div>
+        </center>
+      </div>
+    </div>
+    <div class="row2">
+      <button class="btns btnNew" onclick="newgame()">🔁 NEW GAME</button>
+      <img id="dice" src="dice-1.png" alt="diceimage" />
+      <button class="btns btnRoll" onclick="roll()">🎲ROLL DICE</button>
+      <button class="btns btnHold">✋HOLD</button>
+    </div>
+    <script src="game.js"></script>
+  </body>
+  
+</html>

@@ -1,0 +1,80 @@
+body {
+  background: radial-gradient(
+    circle at center,
+    rgb(212, 199, 199) 50%,
+    rgb(169, 172, 12) 100%
+  );
+}
+* {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.container {
+  width: 65%;
+  height: 500px;
+  margin: auto;
+  position: absolute;
+  top: 10%;
+  left: 15%;
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-evenly; */
+}
+center {
+  font-size: 25px;
+}
+.row1 {
+  background-color: rgb(169, 172, 12);
+  width: 50%;
+  height: inherit;
+  /* justify-content: center; */
+  /* margin: auto; */
+}
+
+.currentplayers {
+  background-color: rgba(255, 255, 255, 0.212);
+  font-size: 20px;
+  margin: 100px 120px;
+  padding: 10px 0px;
+}
+.row2 {
+  /* width: 33%; */
+  display: flex;
+  flex-direction: column;
+  height: inherit;
+  margin: auto;
+  /* background-color: rgb(15, 19, 230); */
+  position: absolute;
+  top: 20%;
+  left: 42%;
+}
+.row3 {
+  width: 50%;
+  height: inherit;
+  background-color: rgb(169, 172, 12);
+}
+.btns {
+  outline: none;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+  border-radius: 20px;
+  padding: 8px 25px;
+  margin: 25px 0px;
+  border: 2px solid rgb(112, 105, 105);
+  background-color: rgba(238, 255, 0, 0.253);
+}
+img {
+  width: 120px !important;
+  margin: auto;
+  height: 120px !important;
+}
+.hidden {
+  display: none;
+}
+.playerIsActive {
+  background-color: rgb(210, 212, 38);
+}
+.winner {
+  background-color: rgb(31, 30, 10);
+  color: white;
+}
