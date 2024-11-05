@@ -67,7 +67,6 @@ const roll = () => {
     }
 }
 
-
 btnHold.addEventListener('click', function () {
 
     if (playing) {
@@ -77,8 +76,8 @@ btnHold.addEventListener('click', function () {
         // changePlayer()
 
 
-        // check the winner when value is >= 30
-        if (scores[activePlayer] >= 20) {
+        // check the winner when value is >= 50
+        if (scores[activePlayer] >= 50) {
             document.querySelector(`.player--${activePlayer}`).classList.add('winner')
             document.querySelector(`.player--${activePlayer}`).classList.remove('playerIsActive')
             diceEl.classList.add("hidden")

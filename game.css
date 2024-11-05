@@ -78,3 +78,45 @@ img {
   background-color: rgb(31, 30, 10);
   color: white;
 }
+#hide {
+  display: none;
+}
+/* mobile view  */
+@media (max-width: 480px) {
+.container  {
+  display: none;
+}
+.row2  {
+  display: none;
+}
+
+  #hide {
+    display: block ;
+  }
+}
+
+/* for tablet view  */
+
+@media (max-width: 768px) {
+.container  {
+
+  position: absolute;
+  top: 10%;
+  left: 15%;
+  /* display: none; */
+}
+
+
+.row2 {
+  /* width: 33%; */
+  display: flex;
+  flex-direction: column;
+  height: inherit;
+  /* margin: auto; */
+  /* background-color: rgb(15, 19, 230); */
+  position: absolute;
+  top: 20%;
+  left: 42%;
+  margin: 0px 5px;
+}
+}
