@@ -76,7 +76,7 @@ btnHold.addEventListener('click', function () {
         // changePlayer()
 
 
-        // check the winner when value is >= 50
+        // check the winner when value is >= 80
         if (scores[activePlayer] >= 80) {
             document.querySelector(`.player--${activePlayer}`).classList.add('winner')
             document.querySelector(`.player--${activePlayer}`).classList.remove('playerIsActive')
